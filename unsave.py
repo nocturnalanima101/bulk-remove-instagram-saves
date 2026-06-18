@@ -8,6 +8,7 @@ import os
 
 CHROME_PROFILE = os.getenv("CHROME_PROFILE")
 USERNAME = os.getenv("INSTAGRAM_USERNAME")
+PROGRESS_FILE = "unsave_progress.json"
 
 MAX_UNSAVES = 999999
 MAX_SCROLL_ROUNDS = 300
